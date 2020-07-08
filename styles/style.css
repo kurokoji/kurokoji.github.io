@@ -50,6 +50,7 @@ body {
 
 .skills span {
     display: inline-block;
+    vertical-align: top;
 }
 
 .skill-name {
@@ -59,6 +60,7 @@ body {
 
 .skill-description {
     font-weight: lighter;
+    max-width: 320px;
 }
 
 .achievement-name {
@@ -67,5 +69,17 @@ body {
 }
 
 .skills li {
-    padding-bottom: 10px;
+    padding-bottom: 0.9rem;
+}
+
+@media screen and (max-width:1024px) {
+    .skill-name {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .achievement-name {
+        width: 100%;
+        min-width: 0;
+    }
 }
