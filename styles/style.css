@@ -1,85 +1,90 @@
 body {
-    font-family: 'Montserrat', 'M PLUS 1p', sans-serif;
+  font-family: 'Montserrat', 'Noto Sans JP', sans-serif;
 }
 
 .icon {
-    color: currentColor;
-    transition: all 300ms 0s ease;
+  color: currentColor;
+  transition: all 300ms 0s ease;
 }
 
 .icon a {
-    color: inherit;
+  color: inherit;
 }
 
 .icon:hover {
-    color: #4a69bd;
+  color: #435495; /* 杜若色(かきつばたいろ)*/
 }
 
-.is-github-activity {
-    background-image: linear-gradient(
-        141deg,#d35400 0, #e67e22 71%, #f39c12 100%
-    );
+.has-text-unohana {
+  color: #fffde6; /* 卯花色(うのはないろ) */
+}
+
+.is-title {
+  background: #2b7396; /* 花田色(はなだいろ) */
+}
+
+.is-profile {
+  background: #93b37a; /* 柳色(やなぎいろ) */
 }
 
 .is-skills {
-    background-image: linear-gradient(
-        141deg,#5758bb 0,#9980fa 71%,#d980fa 100%
-    );
+  background: #706caa; /* 藤納戸(ふじなんど) */
 }
 
 .is-achievement {
-    background-image: linear-gradient(
-        141deg,#9a1f40 0, #d9455f 71%, #e66a57 100%
-    );
+  background: #cb8584; /* 退紅(あらぞめ) */
+}
+
+.is-github-activity {
+  background: #f2b16a; /* 雄黄(ゆうおう) */
 }
 
 .title {
-    margin-bottom: 52px;
-    border-bottom: dashed 3px #34495e;
-    display: inline-block;
+  margin-bottom: 52px;
+  display: inline-block;
 }
 
 .top-title {
-    font-weight: bold;
-    font-size: 62px;
+  font-weight: bold;
+  font-size: 62px;
 }
 
 .is-profile-list {
-    font-weight: lighter;
+  font-weight: lighter;
 }
 
 .skills span {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .skill-name {
-    font-weight: bold;
-    min-width: 240px;
+  font-weight: bold;
+  min-width: 240px;
 }
 
 .skill-description {
-    font-weight: lighter;
-    max-width: 320px;
+  font-weight: lighter;
+  max-width: 320px;
 }
 
 .achievement-name {
-    font-weight: bold;
-    min-width: 620px;
+  font-weight: bold;
+  min-width: 620px;
 }
 
 .skills li {
-    padding-bottom: 0.9rem;
+  padding-bottom: 0.9rem;
 }
 
 @media screen and (max-width:1024px) {
-    .skill-name {
-        width: 100%;
-        min-width: 0;
-    }
+  .skill-name {
+    width: 100%;
+    min-width: 0;
+  }
 
-    .achievement-name {
-        width: 100%;
-        min-width: 0;
-    }
+  .achievement-name {
+    width: 100%;
+    min-width: 0;
+  }
 }
