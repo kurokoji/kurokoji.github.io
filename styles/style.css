@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', 'Noto Sans JP', sans-serif;
+  font-family: "Montserrat", "Noto Sans JP", sans-serif;
 }
 
 .icon {
@@ -12,31 +12,38 @@ body {
 }
 
 .icon:hover {
-  color: #435495; /* 杜若色(かきつばたいろ)*/
+  color: #435495;
+  /* 杜若色(かきつばたいろ)*/
 }
 
 .has-text-unohana {
-  color: #fffde6; /* 卯花色(うのはないろ) */
+  color: #fffde6;
+  /* 卯花色(うのはないろ) */
 }
 
 .is-title {
-  background: #2b7396; /* 花田色(はなだいろ) */
+  background: #2b7396;
+  /* 花田色(はなだいろ) */
 }
 
 .is-profile {
-  background: #93b37a; /* 柳色(やなぎいろ) */
+  background: #93b37a;
+  /* 柳色(やなぎいろ) */
 }
 
 .is-skills {
-  background: #706caa; /* 藤納戸(ふじなんど) */
+  background: #706caa;
+  /* 藤納戸(ふじなんど) */
 }
 
 .is-achievement {
-  background: #cb8584; /* 退紅(あらぞめ) */
+  background: #cb8584;
+  /* 退紅(あらぞめ) */
 }
 
 .is-github-activity {
-  background: #f2b16a; /* 雄黄(ゆうおう) */
+  background: #f2b16a;
+  /* 雄黄(ゆうおう) */
 }
 
 .title {
@@ -60,12 +67,10 @@ body {
 
 .skill-name {
   font-weight: bold;
-  min-width: 240px;
 }
 
 .skill-description {
   font-weight: lighter;
-  max-width: 320px;
 }
 
 .achievement-name {
@@ -77,7 +82,7 @@ body {
   padding-bottom: 0.9rem;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .skill-name {
     width: 100%;
     min-width: 0;
