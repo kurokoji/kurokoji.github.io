@@ -22,15 +22,6 @@
                 "sans-serif",
               ],
             },
-            colors: {
-              accent: {
-                sky: "#2b7396",
-                moss: "#93b37a",
-                indigo: "#706caa",
-                rose: "#cb8584",
-                amber: "#f2b16a",
-              },
-            },
           },
         },
       };
@@ -40,33 +31,27 @@
 
   </head>
 
-  <body class="bg-slate-50 text-slate-900 font-sans">
+  <body class="bg-white text-slate-900 font-sans">
     <main>
-      <header class="relative isolate overflow-hidden">
-        <div
-          class="absolute inset-0 bg-gradient-to-br from-white via-accent-sky/15 to-slate-100"
-        ></div>
-        <div
-          class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.7),transparent_30%),radial-gradient(circle_at_80%_0%,rgba(43,115,150,0.18),transparent_25%)]"
-        ></div>
-        <div class="relative mx-auto max-w-5xl px-6 py-20 md:py-24">
+      <header class="border-b border-slate-200">
+        <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
           <div class="flex flex-col-reverse gap-10 md:flex-row md:items-center">
             <div class="flex-1 space-y-6">
-              <p class="text-sm uppercase tracking-[0.3em] text-slate-600">
+              <p class="text-xs uppercase tracking-[0.28em] text-slate-500">
                 Portfolio
               </p>
-              <h1 class="text-4xl font-bold leading-tight md:text-5xl">
+              <h1 class="text-4xl font-semibold leading-tight md:text-5xl">
                 kurokoji
               </h1>
-              <p class="text-lg leading-relaxed text-slate-700">
+              <p class="max-w-xl text-sm leading-relaxed text-slate-500">
                 icon:住崎鳴彦(<a
-                  class="text-blue-500 underline"
+                  class="underline underline-offset-2"
                   href="https://x.com/HirunoLunch"
                 >@HirunoLunch</a>)
               </p>
-              <div class="flex items-center gap-4 text-2xl text-slate-800">
+              <div class="flex items-center gap-4 text-xl text-slate-700">
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://twitter.com/kur0k0ji"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -74,7 +59,7 @@
                   ><i class="fab fa-x-twitter"></i
                 ></a>
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://github.com/kurokoji"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -82,7 +67,7 @@
                   ><i class="fab fa-github"></i
                 ></a>
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://www.facebook.com/profile.php?id=100010741007868"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -90,7 +75,7 @@
                   ><i class="fab fa-facebook"></i
                 ></a>
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://kurokoji.hatenablog.com/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -101,13 +86,13 @@
             </div>
             <div class="flex justify-center md:justify-end">
               <div
-                class="h-32 w-32 overflow-hidden rounded-full ring-4 ring-accent-sky/20 shadow-2xl shadow-slate-300/70"
+                class="h-32 w-32 overflow-hidden rounded-full border border-slate-200"
               >
                 <img
                   class="h-full w-full object-cover"
                   src="images/kurokoji_icon.png"
                   alt="kurokoji"
->
+                >
               </div>
             </div>
           </div>
@@ -115,24 +100,17 @@
       </header>
 
       <section class="mx-auto max-w-5xl px-6 py-16 md:py-20">
-        <div class="mb-8 flex items-center gap-3">
-          <span
-            class="flex h-9 w-9 items-center justify-center rounded-full bg-accent-moss/20 text-accent-moss"
-            ><i class="fas fa-user"></i
-          ></span>
+        <div class="mb-8 border-b border-slate-200 pb-3">
           <h2 class="text-2xl font-semibold">Profile</h2>
         </div>
-        <div
-          class="rounded-2xl border border-slate-200 bg-white/90 p-8 shadow-lg backdrop-blur"
-        >
+        <div class="rounded-xl border border-slate-200 bg-white p-8">
           <div class="grid gap-8 md:grid-cols-[auto,1fr] md:items-center">
-            <div class="space-y-2 text-center">
-              <div class="text-xl font-semibold">垣花 周 (かきはな しゅう)</div>
-              <div class="text-sm text-slate-600">a.k.a. kurokoji</div>
+            <div class="text-center">
+              <div class="text-xl font-semibold">kurokoji</div>
             </div>
             <ul class="space-y-3 text-slate-700">
               <li class="flex items-start gap-3">
-                <span class="mt-1 text-amber-500"
+                <span class="mt-1 text-slate-400"
                   ><i class="fas fa-graduation-cap"></i
                 ></span>
                 <span
@@ -141,7 +119,7 @@
                 >
               </li>
               <li class="flex items-start gap-3">
-                <span class="mt-1 text-amber-500"
+                <span class="mt-1 text-slate-400"
                   ><i class="fas fa-graduation-cap"></i
                 ></span>
                 <span
@@ -155,50 +133,46 @@
       </section>
 
       <section class="mx-auto max-w-5xl px-6 py-16 md:py-20">
-        <div class="mb-8 flex items-center gap-3">
-          <span
-            class="flex h-9 w-9 items-center justify-center rounded-full bg-accent-indigo/20 text-accent-indigo"
-            ><i class="fas fa-code"></i
-          ></span>
+        <div class="mb-8 border-b border-slate-200 pb-3">
           <h2 class="text-2xl font-semibold">Skills</h2>
         </div>
         <div class="grid gap-4 md:grid-cols-2">
           <div
-            class="rounded-xl border border-slate-200 bg-white p-5 shadow-sm"
+            class="rounded-xl border border-slate-200 bg-white p-5"
           >
             <div class="text-xl font-bold text-slate-900">Ruby</div>
-            <div class="mt-1 text-sm font-semibold text-accent-sky">Rails</div>
+            <div class="mt-1 text-sm font-semibold text-slate-500">Rails</div>
             <p class="mt-2 text-slate-600">Web Backend</p>
           </div>
           <div
-            class="rounded-xl border border-slate-200 bg-white p-5 shadow-sm"
+            class="rounded-xl border border-slate-200 bg-white p-5"
           >
             <div class="text-xl font-bold text-slate-900">TypeScript</div>
-            <div class="mt-1 text-sm font-semibold text-accent-sky">
+            <div class="mt-1 text-sm font-semibold text-slate-500">
               React / React Native / Next.js / Emotion
             </div>
             <p class="mt-2 text-slate-600">Web Frontend</p>
           </div>
           <div
-            class="rounded-xl border border-slate-200 bg-white p-5 shadow-sm"
+            class="rounded-xl border border-slate-200 bg-white p-5"
           >
             <div class="text-xl font-bold text-slate-900">Dlang</div>
             <p class="mt-2 text-slate-600">Competitive Programming / Script</p>
           </div>
           <div
-            class="rounded-xl border border-slate-200 bg-white p-5 shadow-sm"
+            class="rounded-xl border border-slate-200 bg-white p-5"
           >
             <div class="text-xl font-bold text-slate-900">C++</div>
-            <div class="mt-1 text-sm font-semibold text-accent-sky">
+            <div class="mt-1 text-sm font-semibold text-slate-500">
               OpenSiv3D
             </div>
             <p class="mt-2 text-slate-600">Competitive Programming</p>
           </div>
           <div
-            class="rounded-xl border border-slate-200 bg-white p-5 shadow-sm"
+            class="rounded-xl border border-slate-200 bg-white p-5"
           >
             <div class="text-xl font-bold text-slate-900">Python</div>
-            <div class="mt-1 text-sm font-semibold text-accent-sky">
+            <div class="mt-1 text-sm font-semibold text-slate-500">
               Flask / BeautifulSoup / Selenium
             </div>
             <p class="mt-2 text-slate-600">
@@ -206,23 +180,23 @@
             </p>
           </div>
           <div
-            class="rounded-xl border border-slate-200 bg-white p-5 shadow-sm"
+            class="rounded-xl border border-slate-200 bg-white p-5"
           >
             <div class="text-xl font-bold text-slate-900">C#</div>
-            <div class="mt-1 text-sm font-semibold text-accent-sky">
+            <div class="mt-1 text-sm font-semibold text-slate-500">
               .NET Framework
             </div>
             <p class="mt-2 text-slate-600">GUI</p>
           </div>
           <div
-            class="rounded-xl border border-slate-200 bg-white p-5 shadow-sm"
+            class="rounded-xl border border-slate-200 bg-white p-5"
           >
             <div class="text-xl font-bold text-slate-900">Java</div>
-            <div class="mt-1 text-sm font-semibold text-accent-sky">JavaFX</div>
+            <div class="mt-1 text-sm font-semibold text-slate-500">JavaFX</div>
             <p class="mt-2 text-slate-600">GUI</p>
           </div>
           <div
-            class="rounded-xl border border-slate-200 bg-white p-5 shadow-sm"
+            class="rounded-xl border border-slate-200 bg-white p-5"
           >
             <div class="text-xl font-bold text-slate-900">Reaper (DAW)</div>
             <p class="mt-2 text-slate-600">Vocal Edit / MIX</p>
@@ -231,14 +205,10 @@
       </section>
 
       <section class="mx-auto max-w-5xl px-6 py-16 md:py-20">
-        <div class="mb-8 flex items-center gap-3">
-          <span
-            class="flex h-9 w-9 items-center justify-center rounded-full bg-accent-amber/20 text-accent-amber"
-            ><i class="fas fa-microphone-alt"></i
-          ></span>
+        <div class="mb-8 border-b border-slate-200 pb-3">
           <h2 class="text-2xl font-semibold">Hobby</h2>
         </div>
-        <div class="rounded-2xl border border-slate-200 bg-white p-8 shadow-lg">
+        <div class="rounded-xl border border-slate-200 bg-white p-8">
           <div class="space-y-4 text-slate-700">
             <p>
               ボカロ・歌ってみたが好きです。気が向いたときに録音・MIXして歌ってみたを投稿しています。
@@ -261,20 +231,16 @@
       </section>
 
       <section class="mx-auto max-w-5xl px-6 py-16 md:py-20">
-        <div class="mb-8 flex items-center gap-3">
-          <span
-            class="flex h-9 w-9 items-center justify-center rounded-full bg-accent-rose/20 text-accent-rose"
-            ><i class="fas fa-trophy"></i
-          ></span>
+        <div class="mb-8 border-b border-slate-200 pb-3">
           <h2 class="text-2xl font-semibold">Achievement</h2>
         </div>
-        <div class="space-y-4">
-          <article class="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+        <div class="rounded-xl border border-slate-200 bg-white px-6">
+          <article class="border-b border-slate-200 py-4 last:border-b-0">
             <div class="flex flex-wrap items-center gap-2">
               <h3 class="text-lg font-semibold">ETロボコン2015</h3>
               <div class="flex gap-3 text-lg text-slate-700">
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://www.etrobo.jp/2015archive/#result"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -287,12 +253,12 @@
               沖縄大会 優勝 チャンピオンシップ大会出場
             </p>
           </article>
-          <article class="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <article class="border-b border-slate-200 py-4 last:border-b-0">
             <div class="flex flex-wrap items-center gap-2">
               <h3 class="text-lg font-semibold">SuperComputingContest2016</h3>
               <div class="flex gap-3 text-lg text-slate-700">
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://www.gsic.titech.ac.jp/supercon/main/attwiki/index.php?SupercomputingContest2016/%E6%9C%AC%E9%81%B8%E7%B5%90%E6%9E%9C"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -303,14 +269,14 @@
             </div>
             <p class="text-slate-700">本選7位</p>
           </article>
-          <article class="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <article class="border-b border-slate-200 py-4 last:border-b-0">
             <div class="flex flex-wrap items-center gap-2">
               <h3 class="text-lg font-semibold">
                 愛媛大学工学部情報工学科プログラミングコンテスト2016
               </h3>
               <div class="flex gap-3 text-lg text-slate-700">
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="http://epoch.cs.ehime-u.ac.jp/result/index.html"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -321,7 +287,7 @@
             </div>
             <p class="text-slate-700">優秀賞</p>
           </article>
-          <article class="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <article class="border-b border-slate-200 py-4 last:border-b-0">
             <div class="flex flex-wrap items-center gap-2">
               <h3 class="text-lg font-semibold">
                 第14回全国高等学校パソコンコンクール パソコン甲子園2016
@@ -329,7 +295,7 @@
               </h3>
               <div class="flex gap-3 text-lg text-slate-700">
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="http://web-ext.u-aizu.ac.jp/pc-concours/2016/final/f_finalresult.html"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -340,12 +306,12 @@
             </div>
             <p class="text-slate-700">もうひとつの本選8位</p>
           </article>
-          <article class="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <article class="border-b border-slate-200 py-4 last:border-b-0">
             <div class="flex flex-wrap items-center gap-2">
               <h3 class="text-lg font-semibold">第16回日本情報オリンピック</h3>
               <div class="flex gap-3 text-lg text-slate-700">
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://www.ioi-jp.org/joi/2016/2017-ho-invited-list.html"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -356,14 +322,14 @@
             </div>
             <p class="text-slate-700">予選Aランク 本選Bランク</p>
           </article>
-          <article class="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <article class="border-b border-slate-200 py-4 last:border-b-0">
             <div class="flex flex-wrap items-center gap-2">
               <h3 class="text-lg font-semibold">
                 第27回全国高等専門学校プログラミングコンテスト 競技部門
               </h3>
               <div class="flex gap-3 text-lg text-slate-700">
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://www.procon.gr.jp/?p=72948"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -371,7 +337,7 @@
                   ><i class="fas fa-link"></i
                 ></a>
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://github.com/kurokoji/procon27-GUI"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -382,14 +348,14 @@
             </div>
             <p class="text-slate-700">本選 1回戦5位通過 準決勝7位敗退</p>
           </article>
-          <article class="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <article class="border-b border-slate-200 py-4 last:border-b-0">
             <div class="flex flex-wrap items-center gap-2">
               <h3 class="text-lg font-semibold">
                 第28回全国高等専門学校プログラミングコンテスト 競技部門
               </h3>
               <div class="flex gap-3 text-lg text-slate-700">
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://www.procon.gr.jp/wp-content/uploads/2017/10/5f7793fefbff6c4b9dba5c53093cd04e.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -397,7 +363,7 @@
                   ><i class="fas fa-link"></i
                 ></a>
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://github.com/kurokoji/procon28-kyogi"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -408,14 +374,14 @@
             </div>
             <p class="text-slate-700">本選 1回戦1位通過 準決勝15位敗退</p>
           </article>
-          <article class="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <article class="border-b border-slate-200 py-4 last:border-b-0">
             <div class="flex flex-wrap items-center gap-2">
               <h3 class="text-lg font-semibold">
                 第29回全国高等専門学校プログラミングコンテスト 競技部門
               </h3>
               <div class="flex gap-3 text-lg text-slate-700">
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://www.procon.gr.jp/?p=75869"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -423,7 +389,7 @@
                   ><i class="fas fa-link"></i
                 ></a>
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://github.com/kurokoji/procon29-kyogi"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -436,12 +402,12 @@
               本選 予選リーグ敗退 敗者復活戦通過 決勝トーナメント1回戦敗退
             </p>
           </article>
-          <article class="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <article class="border-b border-slate-200 py-4 last:border-b-0">
             <div class="flex flex-wrap items-center gap-2">
               <h3 class="text-lg font-semibold">PARADISE JAM 2019</h3>
               <div class="flex gap-3 text-lg text-slate-700">
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://oadc.asia/creatorsweek2019/newsreport/paradise-jam-2019-%e7%b5%90%e6%9e%9c%e7%99%ba%e8%a1%a8%ef%bc%81%ef%bc%81%ef%bc%81/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -449,7 +415,7 @@
                   ><i class="fas fa-link"></i
                 ></a>
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://github.com/nitoc-ict/ChukuYatchi"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -460,12 +426,12 @@
             </div>
             <p class="text-slate-700">最優秀賞</p>
           </article>
-          <article class="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <article class="border-b border-slate-200 py-4 last:border-b-0">
             <div class="flex flex-wrap items-center gap-2">
               <h3 class="text-lg font-semibold">ICPC 2018 国内予選</h3>
               <div class="flex gap-3 text-lg text-slate-700">
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://icpc.iisf.or.jp/2018-yokohama/1st-round-result/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -476,12 +442,12 @@
             </div>
             <p class="text-slate-700">218位</p>
           </article>
-          <article class="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <article class="border-b border-slate-200 py-4 last:border-b-0">
             <div class="flex flex-wrap items-center gap-2">
               <h3 class="text-lg font-semibold">ICPC 2019 国内予選</h3>
               <div class="flex gap-3 text-lg text-slate-700">
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="https://icpc.iisf.or.jp/2019-yokohama/first-round-result/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -492,14 +458,14 @@
             </div>
             <p class="text-slate-700">114位</p>
           </article>
-          <article class="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <article class="border-b border-slate-200 py-4 last:border-b-0">
             <div class="flex flex-wrap items-center gap-2">
               <h3 class="text-lg font-semibold">
                 OKINAWA ビジネスプランコンテスト 2018(Tech Biz Camp)
               </h3>
               <div class="flex gap-3 text-lg text-slate-700">
                 <a
-                  class="transition hover:text-amber-500"
+                  class="transition hover:text-slate-950"
                   href="http://ttp-okinawa.jp/news-event/news/post520/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -514,21 +480,17 @@
       </section>
 
       <section class="mx-auto max-w-5xl px-6 py-16 md:py-20">
-        <div class="mb-8 flex items-center gap-3">
-          <span
-            class="flex h-9 w-9 items-center justify-center rounded-full bg-accent-amber/20 text-accent-amber"
-            ><i class="fab fa-github"></i
-          ></span>
+        <div class="mb-8 border-b border-slate-200 pb-3">
           <h2 class="text-2xl font-semibold">GitHub Activity</h2>
         </div>
         <div
-          class="flex justify-center rounded-2xl border border-slate-200 bg-white p-6 shadow-lg"
+          class="flex justify-center rounded-xl border border-slate-200 bg-white p-6"
         >
           <img
             class="w-full max-w-3xl"
             src="https://github-contributions-api.deno.dev/kurokoji.svg"
             alt="kurokoji GitHub contributions chart"
->
+          >
         </div>
       </section>
     </main>
